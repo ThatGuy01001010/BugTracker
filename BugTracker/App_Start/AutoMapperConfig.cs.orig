@@ -1,0 +1,23 @@
+﻿using AutoMapper;
+using BugTracker.Domain.Models;
+using BugTracker.Services.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace BugTracker.App_Start
+{
+    public class AutoMapperConfig
+    {
+<<<<<<< HEAD
+        public static void RegisterMaps() {
+=======
+        public static void RegisterMaps()
+        {
+>>>>>>> 7f5a8685fb1f74809c4a9516de127150c77035f4
+            Mapper.CreateMap<Bug, BugDTO>();
+            Mapper.CreateMap<BugDTO, Bug>();
+        }
+    }
+}
